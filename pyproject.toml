@@ -15,7 +15,7 @@ keywords = ["protocol", "comminication", "tcp", "http Alternative",
 			"network programming", "multithreaded", "server", "client",
 			"multithreading"
 			]
-dependencies = ["json", "base64", "cryptography"]
+dependencies = ["cryptography"]
 
 [project.urls]
 Homepage = "https://github.com/P-Y-R-O-B-O-T/CYPHER_PROTOCOL"
