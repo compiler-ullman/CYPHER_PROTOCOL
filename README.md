@@ -33,9 +33,9 @@ pip install CYPHER_PROTOCOL
 
 # HOW TO USE ?
 
-> * <key-1> is a 32 character encryption key for the server and decryption key for client
-> * <key-2> is a 32 character encryption key for the client and decryption key for server
-> * Altough <key-1> and <key-2> can be kept same for any reason
+> * Encryption is a 32 character encryption key for the server and decryption key for client
+> * Decryption is a 32 character encryption key for the client and decryption key for server
+> * Altough encryption and decryption can be kept same for any reason
 > * request_processor in server initialisation is a method/function that user have to define and it is used to process the request recieved from client
 > * responce_processor in client initialisation is a method/function that user have to define and it is used to process the responce recieved from server
 
@@ -46,7 +46,7 @@ pip install CYPHER_PROTOCOL
 "PATH": str,
 "OPERATION": str,
 "DATA": YOUR_DATA_HERE,
-"METADATA": str
+"METADATA": dict
 }
 ```
 
